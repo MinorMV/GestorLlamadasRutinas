@@ -19,7 +19,7 @@ public class GestorLlamadas {
         if (finalizada != null) {
             System.out.println("POP  → Retorna de " + finalizada);
         } else {
-            System.out.println("⚠ No hay llamadas para finalizar.");
+            System.out.println("No hay llamadas para finalizar.");
         }
         pila.mostrarPila();
     }
